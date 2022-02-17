@@ -1,0 +1,22 @@
+<h1>Lista de Clientes</h1>
+
+<a href="/clientes/cadastrar" class="btn btn-success">Novo Cliente</a>
+
+<table *ngIf="lista.length>0; else listavazia">
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Sobrenome</th>
+        </tr>
+        <tr *ngFor="let c of lista">
+            <td>{{c.id}}</td>
+            <td>{{c.nome}}</td>
+            <td>{{c.sobrenome}}</td>
+        </tr>
+    </thead>
+</table>
+
+<ng-template #listavazia>
+  <p>Nenhum cliente cadastrado!</p>
+</ng-template>
