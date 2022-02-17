@@ -1,0 +1,20 @@
+table{
+    width: 60%;
+    margin: auto;
+    background: #ccc;
+    text-align: center;
+}
+
+thead{
+    background: #ccc;
+    color: #fff;
+    height: 2em;
+    text-transform: uppercase;
+    border: #fff 1px solid;
+    text-align: center;
+}
+
+tbody{
+    font-size: 18px;
+    border: #fff 1px solid;
+}
