@@ -1,0 +1,75 @@
+body{
+    margin: center;
+    font-family: 'Segoe UI';
+
+}
+.opcoes_menu{
+    margin: 1%;
+    background-color: #867f7f;
+    padding: 10px;
+}
+
+a{
+    text-decoration: none;
+    font-size: 24px;
+    font-family: 'Segoe UI';
+    color: #faf3f3;
+}
+a:hover{
+    background:  rgb(226, 218, 218);
+    border: #aa026a;
+    font-weight: bold;
+    color: #07aa9c;
+}
+
+
+#Menu{
+    margin: auto;
+    margin-top: 5%;
+    width: 40%;
+    padding: 2%;
+    text-align: center;
+}
+
+#Titulo{
+    padding: 1%;
+    text-align: center;
+    background: #07aa9c;
+    text-transform: uppercase;
+    font-family: 'Lucida Sans', Arial, sans-serif;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+input{
+    margin-right: 30px;
+    margin-top: 2%;
+    font-size: 16px;
+    line-height: 30px;
+    width: 70%;
+    border: 1px solid #ccc;
+    display: inline-block;
+    
+}
+
+button{
+    cursor: pointer;
+    margin-top: 3%;
+    background: #aa026a;
+    display: inline-block;
+    height: 50px;
+    width: 60%;
+    border: #fff 1px solid;
+    font-family: 'Segoe UI';
+    font-size: 15px;
+  
+}
+
+button:hover{
+    background:  rgb(226, 218, 218);
+    border: #aa026a;
+    font-weight: bold;
+    color: #07aa9c;
+   border: 1px solid  #07aa9c;
+}

@@ -1,0 +1,46 @@
+*{
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#fff;
+    
+}
+
+
+h1{
+    font-family: 'Ubuntu', Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #fff;
+    text-shadow: 2px 1px 0.1px #333 ;
+}
+
+h2{
+    font-family: 'Ubuntu', Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+    color: #000;
+    text-align: left;
+}
+
+#tit_conteudo{
+    background-color: #9e0612;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#conteudo{
+    width: 46%;
+    margin: auto;
+    padding: 30px 30px;
+    text-align: justify;
+    /*border: #000 1px solid;*/
+}
+
+p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: 20px;
+}

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/cadastrar.css">
+    <script src="js/cadastrar_script.js"></script>
+   
+    <title> Agencia de Viagens Destino sem volta </title>
+    
+    
+
+</head>
+
+<body >
+    
+     <div id="Titulo">
+        <h2 id="cadastro_tit"> Banco de Cadastros </h2>
+    </div>
+    <div id="voltar"><a href="index.html">|  Menu principal  |</a></div>
+    
+        <form action="">
+            <div id="cadastrar_tit"><h2 >Cadastrar Cliente/Viagem </h2></div>
+            <div class="labels"><label >Id:</label></div>
+            <input type="number"><br />
+
+            <div class="labels"><label>Nome:</label></div>
+            <input type="text" id="nome" placeholder="Digite seu nome"><br />
+
+            <div class="labels"><label >CPF:</label></div>
+            <input type="text" id="cpf" placeholder="Digite seu CPF"><br />
+
+            <div class="labels"><label >Data de nascimento:</label></div>
+            <input type="date" id="nascimento"><br />
+
+            <div class="labels"><label >Destino:</label></div>
+            <input type="text" id="destino"><br />
+
+            <div class="labels"><label >Data de ida:</label></div>
+            <input type="date" id="d_inicio"><br />
+
+            <div class="labels"><label >Data de volta:</label></div>
+            <input  type="date" id="d_inicio"><br />
+
+
+            <input type="submit" value="Salvar" onclick="salvar()"/>
+            <button>Limpar</button>     
+        </form>
+</body>
+
+</html>
