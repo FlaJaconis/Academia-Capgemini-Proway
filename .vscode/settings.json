@@ -1,0 +1,14 @@
+{
+    "java.project.sourcePaths": [
+        "src/aula28_Javaio/P1",
+        "src/aula31_Javaio/P2/view",
+        "src"
+    ],
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\fjaconis\\OneDrive - Capgemini\\Documents\\postgresql-42.3.1.jar",
+        "c:\\Users\\fjaconis\\OneDrive - Capgemini\\Documents\\c3p0-0.9.5.4.jar",
+        "c:\\Users\\fjaconis\\OneDrive - Capgemini\\Documents\\mchange-commons-java-0.2.15.jar"
+    ],
+    "java.configuration.updateBuildConfiguration": "automatic"
+}
